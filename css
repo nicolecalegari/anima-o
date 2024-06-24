@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+*{
+  background-color: #ff9e93;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#Coracao{
+  display: flex;
+  justify-content: center;
+  aling-itens: center;
+  margin: auto;
+  text-aling: center;
+  margin-top: 105px 
+}
+h1{
+  display: flex;
+  justify-content: center;
+  text-aling: center;
+  padding-top: 1em;
+  font-size: 70px;
+ font-family: 'Edu TAS Beginner', cursive;
+  color: #a0203a;  
+}
+h2{ display: flex;
+  justify-content: center;
+  font-font-size: 60px;
+ font-family: 'Edu TAS Beginner', cursive;
+  color: #a0203a;
+  
+  }
+img {animation-name: pulse;
+animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  
+}
+  
+@keyframes pulse{
+  0%{
+    transform: scale(3);
+    opacity: 0.5;
+  }
+  50%{
+    transform:scale(1.5)
+      opacity: 1; 
+  }
+  100%{ transform: scale(2)
+  opacity: 0.5;}
+}
